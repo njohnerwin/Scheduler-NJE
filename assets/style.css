@@ -91,7 +91,7 @@ header h2 {
     float: left;
     width: 80px;
     font-size: 30px;
-    padding: 23px 0px;
+    padding: 23px 0px 24px 0px;
     border: none;
     border-radius: 0px 20px 20px 0px;
     background-color: #0784aa;
