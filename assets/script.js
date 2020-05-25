@@ -41,7 +41,7 @@ function makeBlock(hourInput, hourOutput) {
             <div class="event ${classEvent}" id="hourEvent-${hourInput}">
                 <span>Click here to schedule</span>
             </div>
-            <button class="button">
+            <button class="button" id="hourButton-${hourInput}">
                 <i class="far fa-save"></i>
             </div>
         </div>
