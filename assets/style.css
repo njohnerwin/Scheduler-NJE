@@ -24,10 +24,12 @@ header h2 {
 
 #time-box {
     margin-bottom: 10px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .time-blocks {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 2px;
 }
@@ -58,13 +60,14 @@ header h2 {
     width: 60%;
     padding: 30px 20px;
     background-color: #bdbdbd;
-    color: #00000069;
-    font-style: italic;
 }
 
-.active {
-    font-style: normal;
-    color: #000000;
+.event input {
+    background-color: #00000000;
+    border: none;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif; 
+    color: #00000069;
+    font-style: italic;
 }
 
 .past {
@@ -97,6 +100,19 @@ header h2 {
     color: white;
 }
 
+#clearButton {
+    width: 250px;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    font-size: 24px;
+    background-color: #0784aa62;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 20px 20px 0px 0px;
+}
+
 @media screen and (max-width: 800px) {
 
     header {
@@ -113,8 +129,9 @@ header h2 {
         line-height: 2rem;
     }
 
-    .time-box {
+    #time-box {
         width: 100%;
+        margin: 0;
     }
     
     .time-blocks {
