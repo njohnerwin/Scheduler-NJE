@@ -68,6 +68,7 @@ header h2 {
     font-family: "Segoe UI", Arial, Helvetica, sans-serif; 
     color: #00000069;
     font-style: italic;
+    width: 100%;
 }
 
 .past {
